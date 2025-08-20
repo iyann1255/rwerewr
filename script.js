@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     async function fetchAIResponse(message) {
         // Ganti API_KEY dengan API key Anda dari platform AI
-        const API_KEY = 'YOUR_API_KEY_HERE';
-        const API_URL = 'https://api.openai.com/v1/chat/completions';
+        const API_KEY = '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';
+        const API_URL = 'https://api.openai.com/v1/embeddings';
         
         try {
             const response = await fetch(API_URL, {
